@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade</title>
+    <link rel="stylesheet" href="exercicio2.css">
+</head>
+<body>
+    <header>
+        <h1>Your age</h1>
+    </header>
+    <section>
+        <div>
+       <p>ano de nascimento (birth year): <input type="number" id="txida" name="TxiDa" min="3" max="65"></p>
+       <p>sexo: <br>
+        <input type="radio" name="Sexu" id="sexu" checked>
+        <label for="sexu">Masculino</label>
+        <input type="radio" name="Sexu" id="feme">
+        <label for="feme"> Femenino</label> <br>
+        <input type="button" value="Verificar" onclick="verificador()">
+       </p>
+        </div>
+        <div id="res">
+            <p>preencha todos os dados e veja oque vai acontecer </p>
+        </div>
+    </section>
+    <footer>
+  <p>&copy; <i>SheltonGulely</i></p>
+    </footer>
+    <script src="exercicio2.js"></script>
+</body>
+</html>
